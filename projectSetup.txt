@@ -20,4 +20,8 @@ python manage.py runserver
 http://localhost:8000
 
 
+GIT COMMANDS
+-------------
+git clone
 
+git checkout <your branch>

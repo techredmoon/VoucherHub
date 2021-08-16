@@ -24,4 +24,23 @@ GIT COMMANDS
 -------------
 git clone
 
-git checkout <your branch>
+git branch
+git checkout <your branchname>
+
+git status
+
+#if any update needed
+git fetch origin devloper
+git pull origin devloper
+
+#devlop code
+
+#check current branch before any push operation
+git branch
+
+#push devlop code to your branch
+git add .
+git commit -m "commit msg"
+git push origin <your branchname>
+
+#later after verification we merge it to devloper branch

@@ -1,0 +1,23 @@
+Virtual environment Setup
+==========================
+install python3
+python3 -m venv vh_venv
+
+source vh_venv/bin/activate
+deactivate
+
+pip install -r requirements.txt
+
+Create Djangoproject
+====================
+django-admin startproject voucherhub
+cd voucherhub
+python manage.py startapp dashboard
+
+Run DjangoProject
+=================
+python manage.py runserver
+http://localhost:8000
+
+
+
